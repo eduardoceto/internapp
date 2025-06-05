@@ -85,7 +85,7 @@ export default function SailingsList({ sailings }: { sailings: Sailing[] }) {
                       alt={sailing.ship.line.name}
                       width={64}
                       height={32}
-                      className="object-contain h-8 w-auto"
+                      className="object-contain w-16 h-8"
                     />
                   ) : (
                     <div className="bg-gray-200 w-16 h-8 flex items-center justify-center text-gray-400 text-xs">
