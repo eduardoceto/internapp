@@ -109,7 +109,7 @@ export default function SailingsList({ sailings }: { sailings: Sailing[] }) {
                   <React.Fragment key={i}>
                     <span className="font-medium text-gray-900">{port}</span>
                     {i < sailing.itinerary.length - 1 && (
-                      <span className="text-gray-400">→</span>
+                      <span className="text-gray-400 text-blue">→</span>
                     )}
                   </React.Fragment>
                 ))}
